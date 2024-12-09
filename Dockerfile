@@ -18,5 +18,5 @@ COPY . /app
 RUN pip install -r requirements.txt
 CMD ["python", "medi_backend_gpt2_pipe.py"]
 # Expose the application port
-EXPOSE 8000
+EXPOSE 8080
 
